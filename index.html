@@ -5,15 +5,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Wiki Search</title>
-	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="index.pcss">
 </head>
 <body>
-	<form id='form'>
+	<h1>Wikipedia Viewer</h1>
+
+	<form class='form-container' id='form'>
 		<input type='text'/>
 		<input type='submit'/>
 	</form>
 	
-	<ul id='results'></ul>
+	<ul class='container' id='results'></ul>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/fetch-jsonp/1.0.6/fetch-jsonp.min.js"></script>
 	<script src='index.js' ></script>

@@ -19,7 +19,7 @@ const displaySearch = obj => {
 const displayResult = obj => {
 	document.getElementById('results').innerHTML += `
 		<li>
-			<div>
+			<div class='card'>
 				<h3>${obj.title}</h3>
 				<p>${obj.extract}</p>
 				<a href='${PAGE}${obj.pageid}'>Read More</a>

@@ -5,5 +5,12 @@
 	"license": "MIT",
 	"scripts": {
 		"start": "parcel index.html"
+	},
+	"devDependencies": {
+		"autoprefixer": "^8.2.0",
+		"cssnano": "^3.10.0",
+		"postcss-custom-media": "^6.0.0",
+		"postcss-custom-properties": "^7.0.0",
+		"postcss-nested": "^3.0.0"
 	}
 }
